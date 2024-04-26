@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="APIStoreProject">
+        <classes>
+            <class name="api.test.DDTests">
+                <methods>
+                    <include name="test_PostUser"/>
+                    <include name="test_deleteUserByName"/>
+                </methods>
+            </class>
+            <class name="api.test.UserTests">
+                <methods>
+                    <include name="test_postUser"/>
+                    <include name="test_getUserByName"/>
+                    <include name="test_updateUser"/>
+                    <include name="test_deleteUserByName"/>
+                </methods>
+            </class></classes></test>
+    <test verbose="2" preserve-order="true" name="APIStoreProject_properties">
+        <classes>
+            <class name="api.test.UserTests2">
+                <methods>
+                    <include name="test_postUser"/>
+                    <include name="test_getUserByName"/>
+                    <include name="test_updateUser"/>
+                    <include name="test_deleteUserByName"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
