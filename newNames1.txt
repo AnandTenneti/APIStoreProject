@@ -1,2 +1,4 @@
-Thus is an update file to the existing newNames.txt file
+
+This is an update file to the existing newNames.txt file
+
 
